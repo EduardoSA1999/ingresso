@@ -1,6 +1,6 @@
 function comprar() {
-    let tipo = Document.getElementById('tipo-ingresso');
-    let qtd = Document.getElementById('qtd');
+    let tipo = document.getElementById('tipo-ingresso');
+    let qtd = document.getElementById('qtd');
 
     alert(tipo.value);
     alert(qtd.value);
